@@ -2,8 +2,8 @@
 name: build maven workflow
 on: 
   -push 
-  branches:
-          - master
+branches:
+        - master
 jobs:
   job1:
     runs-on: ubuntu-latest
