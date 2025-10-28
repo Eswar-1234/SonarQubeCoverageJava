@@ -2,7 +2,7 @@
 name: build maven workflow
 on: 
   -push 
-      branches:
+  branches:
           - master
 jobs:
   job1:
