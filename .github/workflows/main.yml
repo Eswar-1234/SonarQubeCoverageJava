@@ -1,5 +1,7 @@
 ---
 name: build maven workflow
+permissions:
+  contents: read
 on: 
   push: 
     branches:
